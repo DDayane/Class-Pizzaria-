@@ -1,0 +1,25 @@
+public class Pizzaria {
+    
+   public Static String pizza;
+      
+    public Static String pedir (String newpizza){
+      pizza = newpizza; 
+        
+    If (pizza == 'Calabresa'){
+        System.debug ('Pizza de Calabresa, valor R$ 45,00');
+       	 return 'R$ 45,00';
+            }Else if (pizza == '4 Queijos') {
+                system.debug('Pizza 4 Queijos, valor R$ 50,00');
+                       	 return 'R$ 50,00';
+
+            }Else if (pizza == 'Maria Bonita') {
+                system.debug('Pizza Maria Bonita, R$ 60,00');
+                       	 return 'R$ 60,00';
+
+            }Else{
+                 system.debug('Não possuímos essa Pizza.');
+                       	 return 'null';
+
+            }
+    } 
+ }

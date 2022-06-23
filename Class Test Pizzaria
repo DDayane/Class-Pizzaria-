@@ -1,0 +1,16 @@
+@isTest
+public class PizzariaTest {
+    @isTest
+    public static void pedindoTest(){
+       
+      String result = Pizzaria.pedir('Calabresa');
+      String result2 = Pizzaria.pedir('4 Queijos');
+      String result3 = Pizzaria.pedir('Maria Bonita');
+      String result4 = Pizzaria.pedir('baiana');
+           
+		system.assertEquals('R$ 45,00', result, 'Deu merda a calabresa é outro valor');
+		system.assertEquals('R$ 50,00', result2, 'Deu merda a 4 Queijos é outro valor');
+		system.assertEquals('R$ 60,00', result3, 'Deu merda a Maria Bonita é outro valor');
+		system.assertEquals('null', result4, 'Deu merda a baiana é outro valor');
+            }
+    }

@@ -8,9 +8,9 @@ public class PizzariaTest {
       String result3 = Pizzaria.pedir('Maria Bonita');
       String result4 = Pizzaria.pedir('baiana');
            
-		system.assertEquals('R$ 45,00', result, 'Deu merda a calabresa é outro valor');
-		system.assertEquals('R$ 50,00', result2, 'Deu merda a 4 Queijos é outro valor');
-		system.assertEquals('R$ 60,00', result3, 'Deu merda a Maria Bonita é outro valor');
-		system.assertEquals('null', result4, 'Deu merda a baiana é outro valor');
+		system.assertEquals('R$ 45,00', result, 'Erro a calabresa é outro valor');
+		system.assertEquals('R$ 50,00', result2, 'Erro a 4 Queijos é outro valor');
+		system.assertEquals('R$ 60,00', result3, 'Erro a Maria Bonita é outro valor');
+		system.assertEquals('null', result4, 'Erro a baiana é outro valor');
             }
     }
